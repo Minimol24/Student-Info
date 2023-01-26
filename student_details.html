@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<link rel="icon" href="https://static.thenounproject.com/png/35785-200.png" type="icon/image">
+<title>Student Profiles</title>
+
+<head>
+	<style>
+		.demo {
+			border: 2.8px solid grey;
+			height: 637px;
+			background-color: rgb(60, 70, 158);
+		}
+
+		h1 {
+			text-align: center;
+			color: rgb(20, 140, 220);
+			font-family: 'Times New Roman', Times, serif;
+			text-shadow: 7px 6px 7px #110581;
+			font-size: 40px;
+		}
+
+		button {
+			margin-top: -60px;
+			margin-right: 100px;
+			padding: 10px;
+			float: right;
+			font-family: 'Times New Roman', Times, serif;
+			color: cornflowerblue;
+			background-color: whitesmoke;
+			border: 1px solid #111;
+		}
+
+		button:hover {
+			color: blue;
+		}
+
+		div.gallery {
+			border: 2px solid rgb(204, 204, 204);
+			margin-left: 35px;
+			margin-top: 30px;
+			float: left;
+			width: 30%;
+			border-radius: 10px;
+		}
+
+		div.gallery img {
+			width: 100%;
+			border-radius: 5px;
+		}
+
+		div.gallery:hover {
+
+			box-shadow: 10px 13px 20px #888888;
+			border-radius: 10px;
+		}
+
+		div.desc {
+			text-align: center;
+			padding: 20px;
+			font-size: 20px;
+			font-family: 'Times New Roman', Times, serif;
+			color: #888888;
+		}
+
+		a {
+			text-decoration: none;
+			color: #888888;
+		}
+
+		.img {
+			padding: 10px;
+			width: 50px;
+			position: absolute;
+			top: 25px;
+			left: 400px;
+			z-index: -1;
+			box-shadow: 5px 3.5px 20px #13049b;
+			border-radius: 50px;
+		}
+	</style>
+	<table id="button"></table>
+
+<body class="demo">
+	<h1>STUDENT DETAILS</h1>
+	<img class="img"
+		src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEwTnvoKxqMfeWIRvQU6ccW-OeuF8T_48xEBVcOEXCxsEr85GnMoZ1i93_JpQEyvnP2m4&usqp=CAU">
+	<a href="total_students_list.html" target="_self"><button class="btn btn-success">
+			<b>TOTAL STUDENTS DETAILS</b></button></a>
+	<hr>
+	<div id="gallery">
+		<div class="gallery">
+			<a href="individual_student_data.html" target="_self">
+				<img src="https://i.pinimg.com/736x/0a/53/c3/0a53c3bbe2f56a1ddac34ea04a26be98.jpg">
+				<div class="desc">
+					<span><b>PERSON 1</b></span>
+			</a>
+		</div>
+	</div>
+	<div class="gallery">
+		<img src="https://i.pinimg.com/736x/0a/53/c3/0a53c3bbe2f56a1ddac34ea04a26be98.jpg">
+		<div class="desc">
+			<span><b>PERSON 2</b></span>
+		</div>
+	</div>
+	<div class="gallery">
+		<img src="https://i.pinimg.com/736x/0a/53/c3/0a53c3bbe2f56a1ddac34ea04a26be98.jpg">
+		<div class="desc">
+			<span><b>PERSON 3</b></span>
+		</div>
+	</div>
+	</div>
+</body>
+</head>
+
+</html>
